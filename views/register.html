@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "gx-qpbXzgW4I"
+      },
+      "outputs": [],
+      "source": [
+        "<div class=\"loginlayout\" layout=\"column\" layout-align=\"center center\" ng-cloak>\n",
+        "</div>\n",
+        "<!-- Login form -->\n",
+        "<md-card class=\"registerbox\">\n",
+        "  <md-toolbar class=\"logintoolbar\">\n",
+        "    <div class=\"md-toolbar-tools\" layout-align=\"center center\">\n",
+        "      <h2>Register</h2>\n",
+        "    </div>\n",
+        "  </md-toolbar>\n",
+        "  <md-card-content>\n",
+        "    <form ng-submit=\"register()\">\n",
+        "      <md-content>\n",
+        "        <md-input-container class=\"md-block\">\n",
+        "          <md-icon md-svg-src=\"img/icons/ic_person_black_24px.svg\"></md-icon>\n",
+        "          <input md-no-asterisk type=\"text\" placeholder=\"Username\" ng-model=\"username\" required>\n",
+        "        </md-input-container>\n",
+        "        <md-input-container class=\"md-block\">\n",
+        "          <md-icon md-svg-src=\"img/icons/ic_email_black_24px.svg\"></md-icon>\n",
+        "          <input md-no-asterisk type=\"email\" placeholder=\"Email\" ng-model=\"email\" required>\n",
+        "        </md-input-container>\n",
+        "        <md-input-container class=\"md-block\">\n",
+        "          <md-icon md-svg-src=\"img/icons/ic_lock_black_24px.svg\"></md-icon>\n",
+        "          <input md-no-asterisk type=\"password\" placeholder=\"Password\" ng-model=\"password\" required>\n",
+        "        </md-input-container>\n",
+        "      </md-content>\n",
+        "      <div class=\"md-actions\" layout=\"row\" layout-align=\"end\">\n",
+        "        <md-button type=\"submit\" class=\"md-raised md-primary\">\n",
+        "          Sign Up\n",
+        "        </md-button>\n",
+        "        <md-button class=\"md-primary\" ng-click=\"goLogin()\">\n",
+        "          Sign In\n",
+        "        </md-button>\n",
+        "      </div>\n",
+        "    </form>\n",
+        "  </md-card-content>\n",
+        "</md-card>"
+      ]
+    }
+  ]
+}
