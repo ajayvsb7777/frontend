@@ -1,0 +1,70 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "qlWjT00XqvdA"
+      },
+      "outputs": [],
+      "source": [
+        "{\n",
+        "  \"name\": \"TaskBan\",\n",
+        "  \"version\": \"0.0.0\",\n",
+        "  \"description\": \"kanban board web application made with AngularJS, NodeJS, ExpressJS and MongoDB\",\n",
+        "  \"main\": \"app.js\",\n",
+        "  \"dependencies\": {\n",
+        "    \"angular\": \"^1.5.5\",\n",
+        "    \"angular-animate\": \"^1.5.5\",\n",
+        "    \"angular-aria\": \"^1.5.5\",\n",
+        "    \"angular-dragula\": \"^1.2.2\",\n",
+        "    \"angular-material\": \"http://github.com/angular/bower-material/tarball/v1.1.0-rc4\",\n",
+        "    \"angular-messages\": \"^1.5.5\",\n",
+        "    \"angular-mocks\": \"^1.5.5\",\n",
+        "    \"angular-route\": \"^1.5.5\",\n",
+        "    \"angular-sanitize\": \"^1.5.5\",\n",
+        "    \"bcryptjs\": \"^2.3.0\",\n",
+        "    \"body-parser\": \"^1.14.2\",\n",
+        "    \"email-validator\": \"^1.0.4\",\n",
+        "    \"express\": \"^4.13.3\",\n",
+        "    \"jsonwebtoken\": \"^5.5.4\",\n",
+        "    \"mongoose\": \"^4.4.14\",\n",
+        "    \"morgan\": \"^1.6.1\",\n",
+        "    \"nodemailer\": \"^2.5.0\",\n",
+        "    \"rand-token\": \"^0.2.1\"\n",
+        "  },\n",
+        "  \"engines\": {\n",
+        "    \"node\": \"4.3.0\",\n",
+        "    \"npm\": \"3.7.3\"\n",
+        "  },\n",
+        "  \"devDependencies\": {},\n",
+        "  \"scripts\": {\n",
+        "    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\",\n",
+        "    \"start\": \"node server.js\"\n",
+        "  },\n",
+        "  \"repository\": {\n",
+        "    \"type\": \"git\",\n",
+        "    \"url\": \"git+ssh://git@github.com/juangranadilla/TaskBan-web/\"\n",
+        "  },\n",
+        "  \"author\": \"Juan José Granadilla Manzano\",\n",
+        "  \"license\": \"GPL-3.0\",\n",
+        "  \"homepage\": \"https://github.com/juangranadilla/TaskBan-web/\"\n",
+        "}"
+      ]
+    }
+  ]
+}
