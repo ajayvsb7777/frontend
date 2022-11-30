@@ -1,0 +1,64 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "qlWjT00XqvdA"
+      },
+      "outputs": [],
+      "source": [
+        "<!doctype html>\n",
+        "<html lang=\"en\" ng-app=\"kanban-board\">\n",
+        "  <head>\n",
+        "    <meta charset=\"utf-8\">\n",
+        "    <title>TaskBan</title>\n",
+        "    <!-- Styles, fonts and favicon -->\n",
+        "    <link rel=\"shortcut icon\" href=\"img/favicon.ico\">\n",
+        "    <!--<link href='node_modules/angular-material/angular-material.css' rel='stylesheet' type='text/css'/>-->\n",
+        "    <link href='https://gitcdn.link/repo/angular/bower-material/master/angular-material.css' rel='stylesheet' type='text/css'/>\n",
+        "    <link href='node_modules/angular-dragula/dist/dragula.css' rel='stylesheet' type='text/css'/>\n",
+        "    <link href='styles/style.css' rel='stylesheet' type='text/css'/>\n",
+        "    <link href='styles/animations.css' rel='stylesheet' type='text/css' />\n",
+        "    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>\n",
+        "    <meta name=\"viewport\" content=\"initial-scale=1\" />\n",
+        "  </head>\n",
+        "  <body>\n",
+        "    <!-- Actual view -->\n",
+        "    <div style=\"height:100%\" ng-view></div>\n",
+        "    <!-- Dependencies -->\n",
+        "    <script src='node_modules/angular/angular.js'></script>\n",
+        "    <script src='node_modules/angular-messages/angular-messages.js'></script>\n",
+        "    <script src='node_modules/angular-dragula/dist/angular-dragula.js'></script>\n",
+        "    <!--<script src='node_modules/angular-material/angular-material.js'></script>-->\n",
+        "    <script src='https://gitcdn.link/repo/angular/bower-material/master/angular-material.js'></script>\n",
+        "    <script src='node_modules/angular-animate/angular-animate.js'></script>\n",
+        "    <script src='node_modules/angular-aria/angular-aria.js'></script>\n",
+        "    <script src='node_modules/angular-route/angular-route.js'></script>\n",
+        "    <script src='app/app.js'></script>\n",
+        "    <script src='app/controllers/kanbanController.js'></script>\n",
+        "    <script src='app/controllers/loginController.js'></script>\n",
+        "    <script src='app/controllers/registerController.js'></script>\n",
+        "    <script src='app/services/kanbanFactory.js'></script>\n",
+        "    <script src='app/services/userFactory.js'></script>\n",
+        "    <script src='app/directives/rightClickDirective.js'></script>\n",
+        "  </body>\n",
+        "</html>"
+      ]
+    }
+  ]
+}
